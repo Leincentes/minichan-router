@@ -46,9 +46,6 @@ However you would be able to use dynamic route parameters
 
    ```php
     <?php
-    
-    use ZankoKhaledi\PhpSimpleRouter\Request; 
-    use ZankoKhaledi\PhpSimpleRouter\Router;
 
     require __DIR__ . "/vendor/autoload.php";
 
