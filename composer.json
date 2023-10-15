@@ -1,0 +1,21 @@
+{
+    "name": "leinc/minichan-router",
+    "description": "A minimal router that can be integrated in any project.",
+    "type": "project",
+    "require-dev": {
+        "phpunit/phpunit": "10.4.x-dev"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Leinc\\MinichanRouter\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Niel Vincent Cano"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
