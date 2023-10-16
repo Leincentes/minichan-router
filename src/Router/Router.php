@@ -339,7 +339,7 @@ class Router implements IRoutes {
         $pattern = "/{(.*?)}/";
         preg_match_all($pattern, $route, $matches);
 
-        $uriArray = explode('/', $uri);
+        $uriArray = explode('/', $this->uri);
         $pathArray = explode('/', $route);
         $uriDiff = array_diff($uriArray, $pathArray);
         $path = "";
