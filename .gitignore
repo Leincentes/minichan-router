@@ -19,8 +19,6 @@ php_errors.log
 
 # Ignore phpuinit.cache
 .phpunit.cache
-phpunit.xml.bak
-phpunit.result.cache
 
 # Manual
 index.php
