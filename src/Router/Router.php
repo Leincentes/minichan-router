@@ -1,9 +1,9 @@
 <?php
 declare(strict_types=1);
-namespace Leinc\MinichanRouter\Router;
+namespace MinichanRouter\Router;
 
-use Leinc\MinichanRouter\Router\Interfaces\IMiddleware;
-use Leinc\MinichanRouter\Router\Interfaces\IRoutes;
+use MinichanRouter\Router\Interfaces\IMiddleware;
+use MinichanRouter\Router\Interfaces\IRoutes;
 use Exception;
 use BadMethodCallException;
 

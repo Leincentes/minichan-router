@@ -1,10 +1,10 @@
 <?php
 declare(strict_types=1);
-namespace Leinc\MinichanRouter\Router;
+namespace MinichanRouter\Router;
 
-use Leinc\MinichanRouter\Router\Interfaces\IFormRequest;
-use Leinc\MinichanRouter\Router\Interfaces\IRequest;
-use Leinc\MinichanRouter\Router\Interfaces\IServices;
+use MinichanRouter\Router\Interfaces\IFormRequest;
+use MinichanRouter\Router\Interfaces\IRequest;
+use MinichanRouter\Router\Interfaces\IServices;
 
 class Request implements IServices, IRequest {
     private ?object $server = null;

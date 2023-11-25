@@ -1,6 +1,6 @@
 <?php
 declare(strict_types=1);
-namespace Leinc\MinichanRouter\Router\Interfaces;
+namespace MinichanRouter\Router\Interfaces;
 
 interface IRequest {
     public function get(string $key);

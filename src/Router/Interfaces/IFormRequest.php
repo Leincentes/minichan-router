@@ -1,8 +1,8 @@
 <?php
 
-namespace Leinc\MinichanRouter\Router\Interfaces;
+namespace MinichanRouter\Router\Interfaces;
 
-use Leinc\MinichanRouter\Router\Request;
+use MinichanRouter\Router\Request;
 
 interface IFormRequest {
     public function validate(Request $request);
