@@ -2,7 +2,7 @@
 
 A minimal router.
 
-# installation
+# Installation
 
 ```bash
 $ composer require leinc/minichan-router
