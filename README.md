@@ -78,7 +78,7 @@ Create a class for example AuthMiddleware that implements IMiddleware contract
  {
    public function handle(IRequest $request,Callable $next)
    {
-     if(!isset($_SESSION['admin']) && $_SESSION['admin'] !== 'zanko'){
+     if(!isset($_SESSION['admin']) && $_SESSION['admin'] !== 'test'){
            header("Location:/");
            exit();
      }
